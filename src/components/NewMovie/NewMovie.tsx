@@ -16,6 +16,7 @@ export const NewMovie: React.FC<Props> = ({ onAdd }) => {
 
   const isFormValid =
     title.trim() &&
+    description.trim() &&
     imgUrl.trim() &&
     imdbUrl.trim() &&
     imdbId.trim();
